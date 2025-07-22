@@ -1,37 +1,40 @@
-/* Step 1: Make body a flex container with vertical stacking */
+/* Body as vertical flex container */
 body {
   display: flex;
   flex-direction: column;
-  height: 100vh; /* Make the body fill the viewport */
+  height: 100vh;
   margin: 0;
+  font-family: Arial, sans-serif;
 }
 
-/* Step 2: Make main a flex container with horizontal stacking */
+/* Main as horizontal flex container */
 main {
   display: flex;
   flex-direction: row;
-  flex: auto; /* Allows main to grow and take available space */
+  flex: auto;
 }
 
-/* Step 3: Article takes 2 parts (2/3), aside takes 1 part (1/3) */
+/* Article takes 2/3 width */
 article {
   flex: 2;
-  overflow-y: auto; /* Enable vertical scroll inside article */
+  overflow-y: auto;
   padding: 1em;
-  background-color: #f5f5f5; /* Optional: style for visibility */
+  background-color: #f5f5f5;
 }
 
+/* Aside takes 1/3 width */
 aside {
   flex: 1;
-  overflow-y: auto; /* Enable vertical scroll inside aside */
+  overflow-y: auto;
   padding: 1em;
-  background-color: #ddd; /* Optional: style for visibility */
+  background-color: #e0e0e0;
 }
 
-/* Optional: styling for header and footer */
-header, footer {
-  background-color: #222;
+/* Header and footer styling */
+header,
+footer {
+  background-color: #333;
   color: white;
-  padding: 1em;
   text-align: center;
+  padding: 1em;
 }
