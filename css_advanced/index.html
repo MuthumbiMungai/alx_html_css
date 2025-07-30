@@ -7,70 +7,146 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+
+    <!-- Header -->
     <header>
-      <div class="container header-container">
-        <img src="image/logo.png" alt="Smile School Logo" class="logo" />
+      <div class="header-content">
+        <img src="./image/logo.png" alt="Smile School Logo" class="logo" />
         <nav>
-          <ul class="nav-list">
-            <li><a href="#">COURSES</a></li>
-            <li><a href="#">PRICING</a></li>
-            <li><a href="#">LOGIN</a></li>
+          <ul>
+            <li><a href="#">Courses</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Login</a></li>
           </ul>
         </nav>
       </div>
+
       <div class="hero">
-        <h1>Get schooled</h1>
-        <p class="hero-subtitle">SMILES&nbsp;&nbsp;&nbsp;&nbsp;GRIN&nbsp;&nbsp;&nbsp;&nbsp;LAUGH</p>
-        <a href="#" class="btn">REGISTER FOR FREE</a>
+        <h1>Get Schooled</h1>
+        <p>SMILES GRIN LAUGH</p>
+        <button class="hero-btn">REGISTER FOR FREE</button>
+        <div class="pros">
+          <div class="pro">
+            <img src="./image/pro1.png" alt="Pro1" />
+            <h3>Phillip Massey</h3>
+            <p>&ldquo;Smile of the year&rdquo;<br>2018 - 2023</p>
+          </div>
+          <div class="pro">
+            <img src="./image/pro2.png" alt="Pro2" />
+            <h3>Nannie Lawrence</h3>
+            <p>Best &ldquo;little smile&rdquo;<br>2017</p>
+          </div>
+          <div class="pro">
+            <img src="./image/pro3.png" alt="Pro3" />
+            <h3>Bruce Walsh</h3>
+            <p>Best &ldquo;Friend Smile&rdquo;<br>live performance 2019</p>
+          </div>
+          <div class="pro">
+            <img src="./image/pro4.png" alt="Pro4" />
+            <h3>Henry Hughes</h3>
+            <p>&ldquo;24h smiles&rdquo; winner<br>2020 - 2021</p>
+          </div>
+        </div>
       </div>
     </header>
 
-    <main>
-
-      <!-- Quote Section -->
-      <section class="quote-section">
-        <div class="quote-container">
-          <img src="./image/avatar.png" alt="Profile of person quoting" class="quote-avatar" />
-          <div class="quote-text">
-            <blockquote>
-              <p>
-                « Those tutorials are concise and go straight to the point. I can’t think of a better place to learn
-                smiling. And it’s so fun!
-              </p>
-            </blockquote>
-            <p class="quote-author">Person Name</p>
-            <p class="quote-title">weather presenter</p>
-          </div>
+    <!-- Quote -->
+    <section class="quote-section">
+      <div class="quote">
+        <img src="./image/avatar.png" alt="Quote Author" />
+        <div class="quote-text">
+          <blockquote>
+            &ldquo;Those tutorials are concise and go straight to the point. I can’t think of a better place to learn smiling. And it’s so fun!&rdquo;
+          </blockquote>
+          <p><strong>Person Name</strong></p>
+          <p>Weather Presenter</p>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <!-- Video Section -->
-      <section class="video-section">
-        <h2 class="section-title">Most popular tutorials</h2>
-        <div class="video-grid">
-          <div class="video-card">
-            <img src="./image/thumbnail1.png" alt="Tutorial Thumbnail" />
-            <h3 class="video-title">Diagonal Smile</h3>
-            <p class="video-author">Phillip Massey</p>
-          </div>
-          <div class="video-card">
-            <img src="./image/thumbnail2.png" alt="Tutorial Thumbnail" />
-            <h3 class="video-title">Sad Smile</h3>
-            <p class="video-author">Phillip Massey</p>
-          </div>
-          <div class="video-card">
-            <img src="./image/thumbnail3.png" alt="Tutorial Thumbnail" />
-            <h3 class="video-title">Natural Smile</h3>
-            <p class="video-author">Phillip Massey</p>
-          </div>
-          <div class="video-card">
-            <img src="./image/thumbnail4.png" alt="Tutorial Thumbnail" />
-            <h3 class="video-title">Happy Smile</h3>
-            <p class="video-author">Phillip Massey</p>
-          </div>
+    <!-- Videos -->
+    <section class="videos">
+      <h2>Most popular tutorials</h2>
+      <div class="video-grid">
+        <div class="video-card">
+          <img src="./image/video1.png" alt="Video 1" />
+          <h3>Diagonal Smile</h3>
+          <p>Lorem ipsum dolor sit amet, consect adipiscing elit.</p>
         </div>
-      </section>
+        <div class="video-card">
+          <img src="./image/video2.png" alt="Video 2" />
+          <h3>Sad Smile</h3>
+          <p>Lorem ipsum dolor sit amet, consect adipiscing elit.</p>
+        </div>
+        <div class="video-card">
+          <img src="./image/video3.png" alt="Video 3" />
+          <h3>Natural Smile</h3>
+          <p>Lorem ipsum dolor sit amet, consect adipiscing elit.</p>
+        </div>
+        <div class="video-card">
+          <img src="./image/video4.png" alt="Video 4" />
+          <h3>Happy Smile</h3>
+          <p>Lorem ipsum dolor sit amet, consect adipiscing elit.</p>
+        </div>
+      </div>
+    </section>
 
-    </main>
+    <!-- Membership -->
+    <section class="membership-section">
+      <h2 class="section-title">Free membership</h2>
+      <div class="membership-grid">
+        <div class="membership-card">
+          <img src="./image/smile_on.png" alt="Smile Icon" />
+          <h3>Live Smiles</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="membership-card">
+          <img src="./image/smile_on.png" alt="Smile Icon" />
+          <h3>100% tutorials</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="membership-card">
+          <img src="./image/smile_on.png" alt="Smile Icon" />
+          <h3>Free subscription</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="membership-card">
+          <img src="./image/smile_on.png" alt="Smile Icon" />
+          <h3>Premium content</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+      </div>
+      <button class="membership-btn">Register for Free</button>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq-section">
+      <h2 class="section-title">F.A.Q.</h2>
+      <div class="faq-grid">
+        <div class="faq-item">
+          <h3>How does it work?</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="faq-item">
+          <h3>How much does it cost?</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="faq-item">
+          <h3>Can I cancel anytime?</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="faq-item">
+          <h3>Do you offer support?</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <img src="./image/logo.png" alt="Logo" />
+      <p>&copy; 2024 SmileSchool. All rights reserved.</p>
+    </footer>
+
   </body>
 </html>

@@ -1,165 +1,158 @@
-/* Reset */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/* Base Styles */
 body {
+  margin: 0;
   font-family: 'Source Sans Pro', sans-serif;
   color: #071629;
-  background-color: white;
-  line-height: 1.6;
 }
 
-/* Containers */
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-
-/* Header */
 header {
-  background-image: url('./image/banner.png');
-  background-size: cover;
-  background-position: center;
+  background-color: #C271FF;
   color: white;
+  padding: 20px;
   text-align: center;
-  padding: 80px 20px;
 }
 
-.header-container {
+.header-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 40px;
+  padding: 0 40px;
 }
 
 .logo {
-  width: 120px;
+  height: 40px;
 }
 
-.nav-list {
-  list-style: none;
+nav ul {
   display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-top: 20px;
+}
+
+.hero-btn {
+  background-color: white;
+  color: #C271FF;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.pros {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.pro img {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.quote-section {
+  background-color: #f0f0f0;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.quote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 900px;
+  margin: auto;
   gap: 30px;
 }
 
-.nav-list a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-/* Hero */
-.hero h1 {
-  font-size: 60px;
-  margin-bottom: 20px;
-}
-
-.hero-subtitle {
-  font-size: 18px;
-  letter-spacing: 10px;
-  margin-bottom: 30px;
-}
-
-.btn {
-  background-color: #C271FF;
-  color: white;
-  padding: 12px 24px;
-  border-radius: 30px;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-/* Quote Section */
-.quote-section {
-  background-color: #C271FF;
-  padding: 60px 20px;
-  color: white;
-}
-
-.quote-container {
-  max-width: 900px;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  gap: 40px;
-  flex-wrap: wrap;
-  text-align: left;
-}
-
-.quote-avatar {
-  width: 160px;
-  height: 160px;
+.quote img {
+  width: 100px;
   border-radius: 50%;
-  object-fit: cover;
 }
 
-.quote-text blockquote {
-  font-style: italic;
-  font-size: 20px;
-  line-height: 1.5;
-  margin-bottom: 15px;
+.quote-text {
+  max-width: 600px;
 }
 
-.quote-author {
-  font-weight: bold;
-  font-size: 18px;
-}
-
-.quote-title {
-  font-size: 14px;
-  text-transform: capitalize;
-  opacity: 0.9;
-}
-
-/* Video Section */
-.video-section {
+.videos {
   padding: 60px 20px;
-  text-align: center;
-  background-color: #f9f9f9;
-}
-
-.section-title {
-  font-size: 32px;
-  color: #071629;
-  font-weight: 700;
-  margin-bottom: 40px;
+  background-color: #fff;
 }
 
 .video-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 30px;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.video-card {
-  background: white;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
-  overflow: hidden;
-  text-align: left;
+  gap: 40px;
+  margin-top: 40px;
 }
 
 .video-card img {
   width: 100%;
-  display: block;
+  border-radius: 12px;
 }
 
-.video-title {
-  font-size: 18px;
-  font-weight: 700;
-  color: #071629;
-  margin: 10px 15px 0;
+.membership-section {
+  background-color: white;
+  padding: 80px 20px;
+  text-align: center;
 }
 
-.video-author {
-  font-size: 14px;
-  color: #C271FF;
-  margin: 5px 15px 15px;
+.membership-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 40px;
+  max-width: 1000px;
+  margin: 40px auto;
+}
+
+.membership-card img {
+  width: 50px;
+}
+
+.membership-btn {
+  background-color: #C271FF;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  margin-top: 40px;
+}
+
+.faq-section {
+  background-color: #f9f9f9;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.faq-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 40px;
+  max-width: 1000px;
+  margin: 40px auto;
+}
+
+footer {
+  background-color: #071629;
+  padding: 40px 20px;
+  text-align: center;
+  color: white;
+}
+
+footer img {
+  width: 100px;
+  margin-bottom: 20px;
 }
