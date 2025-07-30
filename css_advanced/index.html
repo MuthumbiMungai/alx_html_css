@@ -1,37 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>SmileSchool</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <header class="main-header">
-    <div class="container">
-      <img src="./image/logo.png" alt="SmileSchool Logo" class="logo">
-      <nav>
-        <ul class="nav-links">
-          <li><a href="#">Courses</a></li>
-          <li><a href="#">Pricing</a></li>
-          <li><a href="#">Login</a></li>
-        </ul>
-      </nav>
-    </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smile School</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container header-container">
+        <img src="image/logo.png" alt="Smile School Logo" class="logo" />
+        <nav>
+          <ul class="nav-list">
+            <li><a href="#">COURSES</a></li>
+            <li><a href="#">PRICING</a></li>
+            <li><a href="#">LOGIN</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="hero">
+        <h1>Get schooled</h1>
+        <p class="hero-subtitle">SMILES&nbsp;&nbsp;&nbsp;&nbsp;GRIN&nbsp;&nbsp;&nbsp;&nbsp;LAUGH</p>
+        <a href="#" class="btn">REGISTER FOR FREE</a>
+      </div>
+    </header>
 
-    <section class="hero">
-      <h1>Get schooled</h1>
-      <p class="subhead">SMILES &nbsp;&nbsp; GRIN &nbsp;&nbsp; LAUGH</p>
-      <button class="cta-button">Register for free</button>
-    </section>
-  </header>
+    <main>
 
-  <main>
-    <!-- Next sections like videos, testimonials, etc., go here -->
-  </main>
+      <!-- Quote Section -->
+      <section class="quote-section">
+        <div class="quote-container">
+          <img src="./image/avatar.png" alt="Profile of person quoting" class="quote-avatar" />
+          <div class="quote-text">
+            <blockquote>
+              <p>
+                « Those tutorials are concise and go straight to the point. I can’t think of a better place to learn
+                smiling. And it’s so fun!
+              </p>
+            </blockquote>
+            <p class="quote-author">Person Name</p>
+            <p class="quote-title">weather presenter</p>
+          </div>
+        </div>
+      </section>
 
-  <footer>
-    <img src="./image/logo.png" alt="SmileSchool Logo">
-    <p>&copy; 2025 SmileSchool. All rights reserved.</p>
-  </footer>
-</body>
+      <!-- Video Section -->
+      <section class="video-section">
+        <h2 class="section-title">Most popular tutorials</h2>
+        <div class="video-grid">
+          <div class="video-card">
+            <img src="./image/thumbnail1.png" alt="Tutorial Thumbnail" />
+            <h3 class="video-title">Diagonal Smile</h3>
+            <p class="video-author">Phillip Massey</p>
+          </div>
+          <div class="video-card">
+            <img src="./image/thumbnail2.png" alt="Tutorial Thumbnail" />
+            <h3 class="video-title">Sad Smile</h3>
+            <p class="video-author">Phillip Massey</p>
+          </div>
+          <div class="video-card">
+            <img src="./image/thumbnail3.png" alt="Tutorial Thumbnail" />
+            <h3 class="video-title">Natural Smile</h3>
+            <p class="video-author">Phillip Massey</p>
+          </div>
+          <div class="video-card">
+            <img src="./image/thumbnail4.png" alt="Tutorial Thumbnail" />
+            <h3 class="video-title">Happy Smile</h3>
+            <p class="video-author">Phillip Massey</p>
+          </div>
+        </div>
+      </section>
+
+    </main>
+  </body>
 </html>
