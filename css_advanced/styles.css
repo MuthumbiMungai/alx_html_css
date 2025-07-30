@@ -12,34 +12,80 @@ body {
   color: #333;
   line-height: 1.6;
   font-size: 16px;
-  padding: 20px;
 }
 
-/* Header Logo */
-header img {
-  width: 150px;
+/* Header Area */
+.main-header {
+  background-image: url('./image/background.png');
+  background-size: cover;
+  background-position: center;
+  padding: 40px 0 100px 0;
+  color: white;
+}
+
+/* Inner Header Container */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Logo */
+.logo {
+  width: 160px;
+}
+
+/* Navigation */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.hero h1 {
+  font-size: 70px;
+  font-weight: 900;
   margin-bottom: 20px;
 }
 
-/* Tutorial Section */
-.tutorial {
+.subhead {
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 10px;
   margin-bottom: 40px;
 }
 
-.tutorial img {
-  width: 100%;
-  max-width: 300px;
-  border-radius: 8px;
+/* Call-to-Action Button */
+.cta-button {
+  background-color: #C271FF;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
 
-.tutorial h2 {
-  font-size: 1.5em;
-  margin: 10px 0;
-}
-
-.tutorial p {
-  font-size: 1em;
-  color: #555;
+.cta-button:hover {
+  background-color: #a84ed6;
 }
 
 /* Footer */
